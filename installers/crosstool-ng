@@ -1,0 +1,10 @@
+sudo apt-get install -y automake bison flex gperf help2man texinfo
+
+cd ~/source
+git clone https://github.com/crosstool-ng/crosstool-ng
+cd crosstool-ng
+./bootstrap
+./configure --prefix=/home/vagrant/tools/crosstool-ng
+
+echo export PATH=$PATH:/home/vagrant/tools/crosstool-ng/bin >> ~/.bashrc
+export PATH=$PATH:/home/vagrant/tools/crosstool-ng/bin

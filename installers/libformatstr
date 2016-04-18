@@ -1,0 +1,4 @@
+cd ~/source
+git clone https://github.com/hellman/libformatstr
+cd libformatstr
+sudo python setup.py install

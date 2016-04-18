@@ -1,0 +1,6 @@
+sudo apt-get install -y libgmp-dev
+
+cd ~/source
+git clone https://github.com/ius/rsatool
+cd rsatool
+sudo python setup.py install

@@ -1,0 +1,4 @@
+cd ~/source
+git clone https://github.com/sqlmapproject/sqlmap
+mkdir ~/tools
+ln -s ~/source/sqlmap ~/tools/sqlmap

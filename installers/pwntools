@@ -1,0 +1,5 @@
+sudo apt-get install -y python-dev python-pip
+
+sudo pip install pwntools
+echo "installing pip ecdsa for pwntools asm cmd"
+sudo pip install ecdsa

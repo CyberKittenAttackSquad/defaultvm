@@ -1,0 +1,17 @@
+/vagrant/installers/default
+
+/vagrant/installers/angr
+/vagrant/installers/binwalk
+/vagrant/installers/crosstool-ng
+/vagrant/installers/libformatstr
+/vagrant/installers/mindfuck
+/vagrant/installers/peda
+/vagrant/installers/pkcrack
+/vagrant/installers/pwntools
+/vagrant/installers/qemu
+/vagrant/installers/qira
+/vagrant/installers/radare2
+/vagrant/installers/rsatool
+/vagrant/installers/sqlmap
+/vagrant/installers/uncompyle
+/vagrant/installers/xortool

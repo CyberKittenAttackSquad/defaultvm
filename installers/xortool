@@ -1,0 +1,4 @@
+cd ~/source
+git clone https://github.com/hellman/xortool
+cd xortool
+sudo python setup.py install

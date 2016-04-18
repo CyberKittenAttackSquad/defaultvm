@@ -1,0 +1,7 @@
+sudo apt-get install -y python-dev libffi-dev build-essential virtualenvwrapper
+
+echo source /usr/share/virtualenvwrapper/virtualenvwrapper.sh >> ~/.bashrc
+source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
+mkvirtualenv angr
+pip install angr
+deactivate

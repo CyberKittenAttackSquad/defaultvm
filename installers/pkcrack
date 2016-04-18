@@ -1,0 +1,14 @@
+cd ~/source
+cp /vagrant/source/pkcrack-1.2.2.tar.gz .
+gzip -d pkcrack-1.2.2.tar.gz
+tar -xf pkcrack-1.2.2.tar
+rm pkcrack-1.2.2.tar
+cd pkcrack-1.2.2/src/
+make -j 2
+mkdir -p ~/tools/pkcrack
+cp extract ~/tools/pkcrack
+cp findkey ~/tools/pkcrack
+cp makekey ~/tools/pkcrack
+cp pkcrack ~/tools/pkcrack
+cp zipdecrypt ~/tools/pkcrack
+cp -r ~/source/pkcrack-1.2.2/doc ~/tools/pkcrack/

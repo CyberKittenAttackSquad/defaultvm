@@ -1,0 +1,12 @@
+cd ~/source
+wget http://www.radare.org/get/radare2-0.10.2.tar.xz
+xz -d radare2-0.10.2.tar.xz
+tar -xf radare2-0.10.2.tar
+rm radare2-0.10.2.tar
+cd radare2-0.10.2
+./configure --prefix=/home/vagrant/tools/radare2
+make -j 4
+sudo make install
+
+echo export PATH=$PATH:/home/vagrant/tools/radare2/bin >> ~/.bashrc
+export PATH=$PATH:/home/vagrant/tools/radare2/bin
