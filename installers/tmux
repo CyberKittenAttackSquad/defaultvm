@@ -1,0 +1,6 @@
+sudo apt-get install -y exuberant-ctags cmake libevent-dev libncurses5-dev
+git clone https://github.com/tmux/tmux.git
+cd tmux
+sh autogen.sh
+./configure && make
+sudo make install

@@ -1,7 +1,6 @@
-cd ~/source
-cp /vagrant/source/qira-1.2.tar.gz .
-gzip -d qira-1.2.tar.gz
-tar -xf qira-1.2.tar
-rm qira-1.2.tar
-cd qira-1.2
-sudo ./install.sh
+sudo apt-get -qq -y install git gcc-multilib g++-multilib
+git clone https://github.com/BinaryAnalysisPlatform/qira.git
+cd qira/
+./install.sh
+./fetchlibs.sh 
+./tracers/pin_build.sh

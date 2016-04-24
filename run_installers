@@ -15,3 +15,8 @@
 /vagrant/installers/sqlmap
 /vagrant/installers/uncompyle
 /vagrant/installers/xortool
+/vagrant/installers/hashid
+/vagrant/installers/sage
+/vagrant/installers/ipython
+/vagrant/installers/emacs
+/vagrant/installers/tmux
