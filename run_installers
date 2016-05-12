@@ -20,3 +20,6 @@
 /vagrant/installers/ipython
 /vagrant/installers/emacs
 /vagrant/installers/tmux
+/vagrant/installers/z3
+/vagrant/installers/yafu
+/vagrant/installers/scapy
