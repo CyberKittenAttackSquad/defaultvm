@@ -1,0 +1,8 @@
+sudo pip install ropgadget capstone keystone
+git clone https://github.com/unicorn-engine/unicorn.git ~/unicorn 
+cd unicorn
+./make.sh 
+sudo ./make.sh install
+cd bindings/python
+sudo make install
+wget -q -O- https://github.com/hugsy/gef/raw/master/gef.sh | sh

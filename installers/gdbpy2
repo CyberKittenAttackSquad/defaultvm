@@ -1,0 +1,3 @@
+sudo apt-get remove gdb
+wget http://security.ubuntu.com/ubuntu/pool/main/g/gdb/gdb_7.4-2012.02-0ubuntu2_amd64.deb
+sudo dpkg -i ./gdb_7.4-2012.02-0ubuntu2_amd64.deb
